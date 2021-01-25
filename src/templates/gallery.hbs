@@ -1,7 +1,9 @@
 
     {{#each this}}
-    <li class="countries-item">
-        <img src="{{webformatURL}}" alt="{{tags}}">
-        <h3 class="secondary-header">{{name}}</h3>
+    <li class="gallery-item">
+        <a href="">
+            <img src="{{webformatURL}}" data-source={{largeImageURL}} alt="{{tags}}" width="300">
+        </a>
+        
     </li>
     {{/each}}

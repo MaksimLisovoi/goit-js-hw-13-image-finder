@@ -34,8 +34,64 @@ p {
 ul {
   list-style: none;
 }
+/* .gallery {
+  display: grid;
+  width: 1200px;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-auto-rows: 240px;
+  grid-gap: 12px;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+} */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
 
-.section-input {
+.photo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc((100% - 60px) / 3);
+  padding: 15px;
+  margin-bottom: 20px;
+
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 1px 16px 0px rgba(0, 0, 0, 0.39);
+}
+
+.isHiden {
+  display: none;
+}
+.search-form {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.search-form input {
+  height: 40px;
+  min-width: 300px;
+  border-radius: 15px;
+  outline: none;
+}
+.loadMore {
+  margin-top: 20px;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 10px 10px 10px;
+}
+/* .section-input {
   display: inline-block;
   width: 100%;
   max-width: 1000px;
@@ -87,4 +143,4 @@ ul {
 .countries-list {
   padding-left: 25px;
   padding-top: 20px;
-}
+} */

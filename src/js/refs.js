@@ -1,12 +1,6 @@
 export default {
-  form: document.querySelector('.form'),
-  searchBtn: document.querySelector('.searchBtn'),
+  form: document.querySelector('#search-form'),
   gallery: document.querySelector('.gallery'),
+  loadMoreBtn: document.querySelector('.loadMore'),
+  input: document.getElementById('query'),
 };
-
-// const refs = {
-//   inputRef: document.querySelector('.js-input'),
-//   listContainerRef: document.querySelector('.list-container'),
-// };
-
-// export default refs;
